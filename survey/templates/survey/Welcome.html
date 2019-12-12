@@ -1,0 +1,18 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}
+    Welcome!
+{% endblock %}
+
+{% block content %}
+
+    This is a short survey on wealth, poverty and income in Germany. We would like to ask you to take a few minutes to participate.
+Your answers are fully anonymized and you have the option to quit the survey at any time.
+<br><br>
+Please click <b>Next</b> to start the survey.
+<br><br>
+
+    {% next_button %}
+
+{% endblock %}

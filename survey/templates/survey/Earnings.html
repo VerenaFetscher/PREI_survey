@@ -1,0 +1,21 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}
+    Earnings in Germany
+{% endblock %}
+
+{% block content %}
+
+    <p>
+    We would like to know what you think people in these jobs actually earn (in euros).
+        Please write in how much you think they usually earn each year, before taxes.
+        Many people are not exactly sure about this, but your best guess will be close enough.
+        This may be difficult, but it is very important. So please try.
+    </p>
+
+    {% formfields %}
+
+    {% next_button %}
+
+{% endblock %}
