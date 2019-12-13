@@ -6,15 +6,16 @@
 {% endblock %}
 
 {% block content %}
-    <img src = "{% static 'Fig01.png' %}" width="600"/>
-    <br><br>
-
     <p>
     These five diagrams show different types of society.
         Please read the descriptions and look at the diagrams and decide which you think best describes Germany.
     </p>
 
+<img src = "{% static 'Fig01.png' %}" width="600"/>
+
     {% formfields %}
+
+    <br>
 
     {% next_button %}
 
